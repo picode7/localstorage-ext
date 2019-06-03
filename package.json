@@ -1,0 +1,33 @@
+{
+  "name": "localstorage-ext",
+  "version": "1.0.0",
+  "description": "This library provides tools for localStorage in browsers.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeiSir/localstorage-ext.git"
+  },
+  "keywords": [],
+  "author": "CodeiSir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeiSir/localstorage-ext/issues"
+  },
+  "homepage": "https://github.com/CodeiSir/localstorage-ext#readme",
+  "devDependencies": {
+    "prettier": "^1.17.1",
+    "tslint": "^5.17.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.5.1"
+  }
+}
