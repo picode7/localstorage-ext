@@ -14,11 +14,11 @@
 /**
  * Associative-array for localStorage holding key->value
  */
-export interface IBackup {
+interface IBackup {
   [index: string]: string;
 }
 
-export class LocalStorage {
+class LocalStorage {
   /**
    * Flag set true if the Browser supports localStorage, widthout affecting it
    */
